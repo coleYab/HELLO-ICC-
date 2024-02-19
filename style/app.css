@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    position:fixed;
+    
+    width: 100%;
+    height: 50px;
+    background-color: #424141;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    margin-top: 8px;
+    padding: 5px 30px 30px 5px;
+}
+
+li img {
+    padding-bottom: 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.iphone-15-pro, .iphone-15-camera, .mackbook-pro {
+    margin-top: 0px;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.iphone-15-camera {
+    background-image: url("../images/home/iphone11-bg.jpg");
+    color: black;
+}
+
+.mackbook-pro {
+    background-color: rgb(253, 250, 250);
+    background-image: url("../images/home/mac-laptop.jpg");
+    background-size:40%;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.mackbook-pro h1, .mackbook-pro p {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.iphone-15-pro h1, .iphone-15-camera h1, .mackbook-pro h1 {
+    padding-top: 8%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.iphone-15-pro p, .iphone-15-camera p, .mackbook-pro p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mackbook-pro ul, .mackbook-pro ul li a,
+.iphone-15-pro ul, .iphone-15-pro ul li a, 
+.iphone-15-camera ul, .iphone-15-camera ul li a {
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 15px;
+    list-style: none;
+    font-size: 20px;
+    color: blue;
+}
+
+.mackbook-pro ul, .iphone-15-pro ul, .iphone-15-camera ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    opacity: 0.9;
+}
